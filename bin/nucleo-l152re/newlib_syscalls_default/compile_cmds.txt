@@ -1,0 +1,13 @@
+SRC: syscalls.c
+SRC_NO_LTO: 
+SRCXX: 
+CURDIR: /home/buba/RIOT/sys/newlib_syscalls_default
+CFLAGS: -DDEVELHELP -Werror -DCPU_FAM_STM32L1 -DSTM32L152xE -DCPU_LINE_STM32L152xE -DSTM32_FLASHSIZE=524288U -D__SYSTEM_STM32L1XX_H -mno-thumb-interwork -mcpu=cortex-m3 -mlittle-endian -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fshort-enums -ggdb -g3 -Os -DCPU_MODEL_STM32L152RE -DCPU_CORE_CORTEX_M3 -DRIOT_APPLICATION=\"hello-world\" -DBOARD_NUCLEO_L152RE=\"nucleo-l152re\" -DRIOT_BOARD=BOARD_NUCLEO_L152RE -DCPU_STM32=\"stm32\" -DRIOT_CPU=CPU_STM32 -DMCU_STM32=\"stm32\" -DRIOT_MCU=MCU_STM32 -fwrapv -Wstrict-overflow -fno-common -ffunction-sections -fdata-sections -Wall -Wextra -Wmissing-include-dirs -fno-delete-null-pointer-checks -fdiagnostics-color -Wstrict-prototypes -Wold-style-definition -gz -Wformat=2 -Wformat-overflow -Wformat-truncation -fmacro-prefix-map=/home/buba/RIOT/= -Wcast-align -include '/home/buba/RIOT/examples-miem/hello-world/bin/nucleo-l152re/riotbuild/riotbuild.h'
+LTOFLAGS: 
+INCLUDES: -I/home/buba/RIOT/core/lib/include -I/home/buba/RIOT/core/include -I/home/buba/RIOT/drivers/include -I/home/buba/RIOT/sys/include -I/home/buba/RIOT/boards/nucleo-l152re/include -I/home/buba/RIOT/boards/common/nucleo/include -I/home/buba/RIOT/boards/common/stm32/include -I/home/buba/RIOT/boards/common/nucleo64/include -I/home/buba/RIOT/cpu/stm32/include -I/home/buba/RIOT/build/stm32/cmsis/l1/Include -I/home/buba/RIOT/cpu/stm32/include/clk -I/home/buba/RIOT/cpu/cortexm_common/include -I/home/buba/RIOT/cpu/cortexm_common/include/vendor -I/home/buba/RIOT/sys/libc/include -I/home/buba/RIOT/sys/auto_init/include -I/home/buba/RIOT/examples-miem/hello-world/bin/nucleo-l152re/preprocessor
+CXXFLAGS: -DDEVELHELP -Werror -DCPU_FAM_STM32L1 -DSTM32L152xE -DCPU_LINE_STM32L152xE -DSTM32_FLASHSIZE=524288U -D__SYSTEM_STM32L1XX_H -mno-thumb-interwork -mcpu=cortex-m3 -mlittle-endian -mthumb -mfloat-abi=soft -ffunction-sections -fdata-sections -fshort-enums -ggdb -g3 -Os -DCPU_MODEL_STM32L152RE -DCPU_CORE_CORTEX_M3 -DRIOT_APPLICATION=\"hello-world\" -DBOARD_NUCLEO_L152RE=\"nucleo-l152re\" -DRIOT_BOARD=BOARD_NUCLEO_L152RE -DCPU_STM32=\"stm32\" -DRIOT_CPU=CPU_STM32 -DMCU_STM32=\"stm32\" -DRIOT_MCU=MCU_STM32 -fwrapv -Wstrict-overflow -fno-common -ffunction-sections -fdata-sections -Wall -Wextra -Wmissing-include-dirs -fno-delete-null-pointer-checks -fdiagnostics-color -gz -Wformat=2 -Wformat-overflow -Wformat-truncation -fmacro-prefix-map=/home/buba/RIOT/= -Wcast-align -include '/home/buba/RIOT/examples-miem/hello-world/bin/nucleo-l152re/riotbuild/riotbuild.h' -Wno-missing-field-initializers
+CXXINCLUDES: 
+CC: arm-none-eabi-gcc
+CXX: arm-none-eabi-g++
+TARGET_ARCH: arm-none-eabi
+TARGET_ARCH_LLVM: 
